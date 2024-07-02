@@ -1,6 +1,38 @@
-## FULL STACK RECIPES APP
+# FULL STACK RECIPES APP
+
+## Description
+
+This project is a full-stack recipes application developed as a passion project to create my first full-stack application. It's open-source, so feel free to use it and contribute.
+
+## Setup Instructions
+
+### Prerequisites
+
+Before setting up the project, ensure you have the following installed on your local machine:
+
+- Python 3.x
+- Git
+
+### Installation
+
+1. Clone the repository to your local machine using Git:
+
+   ```bash
+   git clone https://github.com/Jomma52637/Website.git
+   ```
+2. Navigate into the project directory:
+   
+3. ```bash
+   cd Website
+   ```
+## Usage
+
+- To run the project locally:
+
+- Make sure all dependencies are installed as per the instructions above.
+
+- Start the development server:
+```bash
+python manage.py runserver
 ```
-This was made as a passion project to create my first full stack application
-I will go over setting up the project directly into your personal environment below.
-Usage of this project is free and open source if you feel the desire to.
-```
+- Open your web browser and go to http://localhost:8000 to view the application.
