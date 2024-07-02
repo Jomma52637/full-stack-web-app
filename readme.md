@@ -20,6 +20,9 @@ Before setting up the project, ensure you have the following installed on your l
    ```bash
    git clone https://github.com/Jomma52637/Website.git
    ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 2. Navigate into the project directory:
    
 3. ```bash
