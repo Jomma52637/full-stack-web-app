@@ -18,7 +18,7 @@ Before setting up the project, ensure you have the following installed on your l
 1. Clone the repository to your local machine using Git:
 
    ```bash
-   git clone https://github.com/Jomma52637/Website.git
+   git clone https://github.com/Jomma52637/full-stack-web-app.git
    ```
    ```bash
    pip install -r requirements.txt
