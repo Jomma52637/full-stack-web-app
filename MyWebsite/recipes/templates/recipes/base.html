@@ -25,6 +25,11 @@
               <li class="nav-item">
                 <a class="nav-link" href="{% url 'recipes-about'%}">About</a>
               </li>
+              {% if user.is_authenticated %}
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'recipes-create'%}">Add Recipe</a>
+              </li>
+              {% endif %}
             </ul>
           </div>
           <div class="navbar-nav">
