@@ -46,9 +46,10 @@ class RecipeDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     model = models.Recipe
     success_url = reverse_lazy('recipes-home')
 
+    # Checks if user is author of recipe or if user is a super user (admin of site) 
     def test_func(self):
         recipe = self.get_object()
-        return self.request.user == recipe.author
+        return self.request.user == recipe.author or self.request.user.is_superuser
 
 
 def About(request):
